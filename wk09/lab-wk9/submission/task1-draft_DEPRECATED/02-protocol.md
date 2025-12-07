@@ -1,8 +1,8 @@
 # Task 1: Evaluation Protocol
 
-**Date**: [Date]
-**Facilitator**: [Your name/student ID]
-**Observer**: [Name if applicable, or "N/A"]
+**Date**: [05-12-2025]
+**Facilitator**: [Fareedah Fashola/2018230811]
+**Observer**: ["N/A"]
 
 ---
 
@@ -72,7 +72,7 @@
 
 **Task List** (see `03-tasks.md` for full definitions):
 
-**Task 1** (T1): [Brief task title]
+**Task 1** (T1): Add task
 - **Start**: [HH:MM:SS]
 - **Outcome**: [success / success-with-errors / abandoned]
 - **End**: [HH:MM:SS]
@@ -80,7 +80,7 @@
 - **Errors**: [count]
 - **Notes**: [observer notes]
 
-**Task 2** (T2): [Brief task title]
+**Task 2** (T2): [Edit task]
 - **Start**: [HH:MM:SS]
 - **Outcome**: [success / success-with-errors / abandoned]
 - **End**: [HH:MM:SS]
@@ -88,7 +88,7 @@
 - **Errors**: [count]
 - **Notes**: [observer notes]
 
-**Task 3** (T3): [Brief task title]
+**Task 3** (T3): [Filter task]
 - **Start**: [HH:MM:SS]
 - **Outcome**: [success / success-with-errors / abandoned]
 - **End**: [HH:MM:SS]
@@ -96,7 +96,7 @@
 - **Errors**: [count]
 - **Notes**: [observer notes]
 
-**Task 4** (T4): [Brief task title]
+**Task 4** (T4): [Delete task]
 - **Start**: [HH:MM:SS]
 - **Outcome**: [success / success-with-errors / abandoned]
 - **End**: [HH:MM:SS]

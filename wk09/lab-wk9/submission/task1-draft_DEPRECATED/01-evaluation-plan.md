@@ -1,7 +1,7 @@
 # Task 1: Evaluation Plan
 
-**Student ID**: [Your student ID]
-**Date**: [Date]
+**Student ID**: [201830811]
+**Date**: [2025-12-05]
 **Module**: COMP2850 HCI
 
 ---
@@ -9,24 +9,26 @@
 ## 1. Evaluation Objectives
 
 **What are you evaluating?**
-- [Brief description of the system/interface being evaluated]
-- [Key features under evaluation]
+- How users interact with Task manager, i.e. adding, editing and deleting tasks and the accessibility 
+- Mainly evaluating add, edit and delete and navigating with the keyboard
 
 **Why evaluate now?**
-- [Design questions you need answered]
-- [Decisions that depend on evaluation results]
+- Identifying issues that need fixing before redesigning
+- determine whether current UI supports users who need accessibility adjustments such as no touchpad/mouse
 
 ---
 
 ## 2. Link to Needs-Finding (LO2)
 
 **Connection to Week 6 job stories**:
-- [Reference 2-3 job stories from Week 6 Lab 2 that informed your evaluation tasks]
-- [Example: "Job story: 'When I need to track coursework deadlines, I want to quickly add tasks, so I don't forget important dates' → informed Task 3 (add task) design"]
+- S1: "When I'm Using my laptop without a trackpad, i want every core function to be accessible through the keyboard"
+- S3: "When i add/edit/delete a task, I want confirmation that the task succeeded"
+- S4: When tasks pile up it becomes a very long list. 
 
 **How needs-finding shaped evaluation**:
-- [Explain how user needs identified in Week 6 influenced which features to prioritise for testing]
-- [Example: "Needs-finding revealed that participants value speed over visual polish, so we're measuring time-on-task as primary metric"]
+- Needs finding revealed that participants forget tasks often so adding a task must be quick and confirmed. Due to this we are measure the time it takes to add a task and the confirmation as a primary metric.
+- It also showed that participants get overwhelmed or stressed out by long list so testing filtering becomes important.
+- Participants also struggle when trying to navigate using just the keyboard so we must test the accessibility of the task manager using solely the keyboard.
 
 **Evidence trail**: Week 6 job stories → backlog items → features implemented → evaluation tasks
 
@@ -37,8 +39,10 @@
 **Method chosen**: Task-based usability testing
 
 **Rationale**:
-- [Why task-based testing is appropriate for your design questions]
-- [What alternative methods were considered and why rejected]
+- It shows whether the tasks(add,edit,delete) work
+- It also reveals accessibility problems, especially for people who are mostly keyboard users
+- Can see time based and error based metrics which will be useful for redesign 
+- Surveys: difficult to show how users interact with task manager
 
 **Target participants**: Peer students (n=4 minimum)
 
@@ -47,7 +51,7 @@
 ## 4. Success Criteria
 
 **Quantitative metrics**:
-- **Time-on-task**: Target < [X] seconds for Task 1, < [Y] seconds for Task 2, etc.
+- **Time-on-task**: Target < 20 seconds for adding task, < 30 seconds for editing a task, < 20 seconds for deleting a task, <20 second for filtering a task
 - **Completion rate**: Target ≥ 80% (participants complete without critical errors)
 - **Error rate**: Target < 20% (validation errors, incorrect submissions)
 - **Confidence**: Target ≥ 4/5 average (post-task self-rating)
@@ -63,13 +67,15 @@
 ## 5. Evaluation Scope
 
 **In scope**:
-- [Feature 1: e.g., Task creation with validation]
-- [Feature 2: e.g., Filtering/search functionality]
+- T1 add task (with confirmation)
+- T2 edit task (with confirmation)
+- T3 Filter task 
+- T4 Delete task with confirmation
 - [Feature 3: e.g., Inline editing]
 - [Feature 4: e.g., Delete with confirmation]
 
 **Out of scope** (not evaluated in this round):
-- [Features deferred to later evaluation]
+- [automatic prioritisation]
 - [Known limitations accepted as constraints]
 
 ---
@@ -78,7 +84,7 @@
 
 | Risk | Impact | Mitigation |
 |------|--------|------------|
-| Insufficient participants (n<4) | Can't identify patterns | Recruit early, offer flexible scheduling |
+| Insufficient participants (n<2) | Can't identify patterns | Recruit early, offer flexible scheduling |
 | Technical failures during pilots | Lost data, incomplete sessions | Test setup before pilots, have backup device |
 | Pilot bias (peers know the system) | Overly positive results | Use structured tasks, observe actions not opinions |
 | Privacy breach (PII in logs) | GDPR violation | Use anonymous session IDs, no names/emails in data |
@@ -111,10 +117,11 @@
 ## 9. Expected Outcomes
 
 **What will you learn from this evaluation?**
-- [Design question 1 answered]
-- [Design question 2 answered]
-- [Accessibility barriers identified]
-- [Performance bottlenecks quantified]
+- Are users able to add tasks quickly 
+- Is filtering possible and does it work properly
+- What are the main usability constraints
+- Are confirmation messages shown
+- Are features keyboard accessible
 
 **How will results inform redesign?**
 - Findings will be prioritised using (Impact + Inclusion) – Effort matrix

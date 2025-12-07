@@ -14,89 +14,67 @@
 
 ---
 
-## Task 1 (T1): [Task Title]
+## Task 1 (T1): Add task
 
 ### Scenario
-> [Provide context for the task]
->
-> Example: "You need to add a new task for your coursework deadline."
+> You need to add a new task for your deadline coming up 
 
 ### Instructions (read to participant)
-> "[Specific instruction]"
->
-> Example: "Add a task with the title 'COMP2850 lab report' to your task list."
+> "Add a task with title 'complete 2860 worksheet 7' to your task list"
 
 ### Success Criteria
-- [ ] [Observable outcome 1]
-- [ ] [Observable outcome 2]
+- [ ] Task appears in list 
+- [ ] Title matches exactly 'complete 2860 worksheet 7'
+- [ ] Confirmation message is shown
+- [ ] No validation errors occured
+ 
 
-Example:
-- [ ] Task appears in the task list
-- [ ] Task title matches "COMP2850 lab report"
-- [ ] No validation errors occurred
 
 ### Expected Duration
-**Target**: < [X] seconds
+**Target**: < 20 seconds
 
 ### Known Risks
-- [Potential issue 1, e.g., "Blank submission triggers validation error"]
-- [Potential issue 2, e.g., "Focus not moved to error message"]
+- "Blank submission triggers validation error"
+- "No confirmation message displayed"
 
 ---
 
-## Task 2 (T2): [Task Title]
+## Task 2 (T2): [Filter tasks]
 
 ### Scenario
-> [Provide context for the task]
->
-> Example: "You need to find all tasks related to your Computer Science module."
+> You have a lot of tasks and want to only see the ones in one module
 
 ### Instructions (read to participant)
-> "[Specific instruction]"
->
-> Example: "Use the filter to show only tasks containing the word 'COMP'."
+> "Use the filter to show only tasks containing the word '2860'."
 
 ### Success Criteria
-- [ ] [Observable outcome 1]
-- [ ] [Observable outcome 2]
-
-Example:
-- [ ] Filter input contains "COMP"
+- [ ] Filter input contains "2860"
 - [ ] Task list shows only matching tasks
-- [ ] Result count is announced (for SR users)
 
 ### Expected Duration
-**Target**: < [X] seconds
+**Target**: < 20 seconds
 
 ### Known Risks
-- [Potential issue 1, e.g., "Auto-filter not obvious (participant expects button)"]
-- [Potential issue 2, e.g., "Status announcement missing for no-JS mode"]
-
+- "Auto-filter not obvious (participant expects button)"
+- Cant tell its been filtered due to lack of other inputs or tasks in the list 
+- "Status announcement missing for no-JS mode"
 ---
 
-## Task 3 (T3): [Task Title]
+## Task 3 (T3): Edit Task
 
 ### Scenario
-> [Provide context for the task]
->
-> Example: "You notice a typo in one of your tasks and need to correct it."
+> "You notice a typo in one of your tasks and need to correct it."
 
 ### Instructions (read to participant)
-> "[Specific instruction]"
->
-> Example: "Edit the task titled '[example task]' and change it to '[corrected title]'."
+> "Edit the task titled 'complete 2860 worksheet 7' and change it to 'complete 2870 worksheet 7'"
 
 ### Success Criteria
-- [ ] [Observable outcome 1]
-- [ ] [Observable outcome 2]
-
-Example:
 - [ ] Edit mode activated (form appears)
 - [ ] Task title updated successfully
 - [ ] Changes reflected in task list
 
 ### Expected Duration
-**Target**: < [X] seconds
+**Target**: < 30 seconds
 
 ### Known Risks
 - [Potential issue 1, e.g., "Inline edit form not keyboard-accessible"]
@@ -104,33 +82,25 @@ Example:
 
 ---
 
-## Task 4 (T4): [Task Title]
+## Task 4 (T4): Delete Task
 
 ### Scenario
-> [Provide context for the task]
->
-> Example: "You've completed a task and want to remove it from your list."
+> "You've completed a task and want to remove it from your list."
 
 ### Instructions (read to participant)
-> "[Specific instruction]"
->
-> Example: "Delete the task titled '[example task]'."
+"Delete the task titled 'complete 2870 worksheet 7'."
 
 ### Success Criteria
-- [ ] [Observable outcome 1]
-- [ ] [Observable outcome 2]
-
-Example:
-- [ ] Confirmation dialog appears (if implemented)
+- [ ] Confirmation dialog appears 
 - [ ] Task is removed from the list
 - [ ] Deletion confirmed visually
 
 ### Expected Duration
-**Target**: < [X] seconds
+**Target**: < 20 seconds
 
 ### Known Risks
-- [Potential issue 1, e.g., "No confirmation—accidental deletion possible"]
-- [Potential issue 2, e.g., "Delete button not keyboard-accessible"]
+- No confirmation—accidental deletion possible"
+- "Delete button not keyboard-accessible"
 
 ---
 

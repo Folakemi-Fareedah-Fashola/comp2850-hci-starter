@@ -303,7 +303,7 @@ If participant declines or seems uncertain, thank them and find another voluntee
 #### Task T3: Add Task (60s limit)
 
 **Facilitator reads**:
-> "You need to remember to 'Call supplier about delivery'. Add this as a new task."
+> "You need to remember to 'Complete 2860 worksheet 7. Add this as a new task."
 
 **Start timing**: When participant focuses in input or begins typing.
 
@@ -326,7 +326,7 @@ Record answer: `Confidence: 5`
 #### Task T1: Filter Tasks (120s limit)
 
 **Facilitator reads**:
-> "You've been asked to find all tasks containing the word 'report'. Use the filter to show only matching tasks, then count how many remain."
+> "You've been asked to find all tasks containing the word '2870'. Use the filter to show only matching tasks, then count how many remain."
 
 **Note-taker records**:
 - How long to find filter box?
@@ -341,7 +341,7 @@ Record answer: `Confidence: 5`
 #### Task T2: Edit Task (90s limit)
 
 **Facilitator reads**:
-> "The task 'Submit invoices' has a typo. Change it to 'Submit invoices by Friday' and save the change."
+> "The task 'Buy milk' has a typo. Change it to 'Buy yogurt' and save the change."
 
 **Note-taker records**:
 - How quickly did they find Edit button?
@@ -356,7 +356,7 @@ Record answer: `Confidence: 5`
 #### Task T4: Delete Task (45s limit)
 
 **Facilitator reads**:
-> "The task 'Test entry' is no longer needed. Delete it."
+> "The task 'Email manager about time off' is no longer needed. Delete it."
 
 **Note-taker records**:
 - Confirmation dialog appeared? (HTMX)
@@ -396,7 +396,7 @@ Repeat entire process with new participant, **new session ID** (e.g., `P2_4d8e`)
 **Record variant** in consent log: `Variant: Keyboard-only, JS-on`
 
 **Additional observations to capture**:
-- Tab order logical?
+- Tab order logical? 
 - All interactive elements reachable?
 - Focus visible on all stops?
 - Any keyboard traps?
@@ -424,24 +424,6 @@ Repeat entire process with new participant, **new session ID** (e.g., `P2_4d8e`)
 
 **Expected**: Slower task times (full page reloads). Verify `metrics.csv` shows `js_mode=off`.
 
----
-
-### Pilots 4–6: Standard or Screen Reader
-
-**Standard**: Repeat Pilot 1 process with new participants for more data points.
-
-**Screen Reader** (if time permits):
-- Participant uses NVDA (Windows) or Orca (Linux)
-- Allow 2× time (SR navigation slower)
-- Facilitator **silent** unless participant asks questions (talking competes with SR audio)
-
-**SR-specific observations**:
-- Are labels announced correctly?
-- Are status messages announced (`role="status"`)?
-- Are error messages linked to inputs (`aria-describedby`)?
-- Can participant complete tasks independently?
-
-**Record variant**: `Variant: Screen reader (NVDA), keyboard-only, JS-on`
 
 ---
 

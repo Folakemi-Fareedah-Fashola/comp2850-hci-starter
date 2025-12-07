@@ -3,12 +3,11 @@
 > **📥 Download this template**: [COMP2850-submission-template.md](/downloads/COMP2850-submission-template.md)
 > Right-click the link above and select "Save link as..." to download the template file.
 
-**Student**: [Your name and student ID]
-**Submission date**: [DD/MM/YYYY]
+**Student**: Fareedah Fashola [201830811]
+**Submission date**: [DD/MM/
 **Academic Year**: 2025-26
 
 ---
-
 ## Privacy & Ethics Statement
 
 - [ ] I confirm all participant data is anonymous (session IDs use P1_xxxx format, not real names)

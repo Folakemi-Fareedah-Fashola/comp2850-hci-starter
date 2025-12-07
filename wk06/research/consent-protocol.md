@@ -1,25 +1,9 @@
-# TODO: Week 6 Lab 2 Activity 1 Step 2
-
-Create your informed consent protocol here following the mdbook instructions.
-
-Your consent protocol should include:
-- [ ] Purpose statement
-- [ ] What participants will do
-- [ ] Data collected (and NOT collected - no PII)
-- [ ] Data storage location and duration
-- [ ] Participant rights (UK GDPR)
-- [ ] Consent confirmation checklist
-- [ ] Opt-out process
-- [ ] Contact information
-
-See mdbook Week 6 Lab 2 Activity 1 Step 2 for the full template to copy.
-
 # Informed Consent Protocol — Week 6 Peer Interviews
 
 **Module**: COMP2850 Human-Computer Interaction
 **Activity**: Low-risk needs-finding (peer interviews)
-**Date**: [YYYY-MM-DD]
-**Researcher**: [Your Name/Student ID]
+**Date**: [2025-12-03]
+**Researcher**: [Fareedah Fashola/201830811]
 
 ---
 
@@ -64,16 +48,21 @@ Before starting, I will ask:
 - [ ] Consent to participate?
 
 **Verbal consent sufficient**. If yes, I'll note:
-- Date/time: [YYYY-MM-DD HH:MM]
-- Pseudonym: [e.g., "Participant A"]
-- Consent confirmed: [Initials]
+CONSENT CONFIRMATION: PARTICIPANT A
+- Date/time: [2025-12-03 17:33]
+- Pseudonym: Participant A
+- Consent confirmed: HL
 
+CONSENT CONFIRMATION: PARTICIPANT B
+- Date/time: [2025-12-03 18:36]
+- Pseudonym: Participant B
+- Consent confirmed: PW
 ---
 
 ## Opt-Out Process
 
 If you change your mind:
-1. Email: [your-university-email]
+1. Email: bqbq7257@leeds.ac.uk
 2. Include: interview date + pseudonym
 3. I'll delete notes within 48 hours
 4. Confirm deletion via email
@@ -82,7 +71,7 @@ If you change your mind:
 
 ## Contact
 
-**Researcher**: [Your Name], [your-email@leeds.ac.uk]
+**Researcher**: Fareedah Fashola, bqbq7257@leeds.ac.uk
 **Module Lead**: Dr. [Name], [module-email]
 **University Ethics**: ethics@leeds.ac.uk
 

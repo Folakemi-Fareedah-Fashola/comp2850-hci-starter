@@ -1,1 +1,6 @@
 id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,candidate_fix
+1,Keyboard-only task management,stories.md#S1,Job story,Full keyboard access,Accessibility,High,"Keyboard-only users, Motor","P-A L87; P-B L125","Users cannot easily navigate without mouse/trackpad",true
+2,Improve outdoor visibility,stories.md#S2,Job story,Visual accessibility,Accessibility,Medium,"Low vision, Glare sensitivity","P-A L66; P-B L137","Bright sunlight makes screen unreadable",false
+3,Confirmation after adding tasks,stories.md#S3,Job story,Trust & feedback,Accessibility,High,"Cognitive, Screen reader, Low digital literacy","P-A Q6 L74","No confirmation creates uncertainty and stress",true
+4,Automatic prioritisation of tasks,stories.md#S4,Job story,Reduce cognitive load,Usability,Medium,"Cognitive load, Overwhelm","P-A Q2 L110; P-B Q6 L145","Long unordered lists cause stress and poor task selection",false
+5,Deadline reminders,stories.md#S5,Job story,Memory support,Accessibility,Medium,"Memory, Cognitive","P-B Q3 L118","Participants forget tasks without reminders",true
