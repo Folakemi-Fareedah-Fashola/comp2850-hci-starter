@@ -1,1 +1,13 @@
 ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-07T19:43:42Z,P1_5w2q,r001,T3_add,success,,39000,200,on
+2025-12-07T19:50:43Z,P1_5w2q,r002,T1_filter,success,,32000,200,on
+2025-12-07T19:59:32Z,P1_5w2q,r003,T2_edit,fail,could_not_navigate,120000,200,on
+2025-12-07T20:06:19Z,P1_5w2q,r004,T4_delete,fail,could_not_navigate,120000,200,on
+2025-12-07T20:11:15Z,P2_3r9q,r005,T3_add,success,,14000,200,on
+2025-12-07T20:14:23Z,P2_3r9q,r006,T1_filter,success,,11000,200,on
+2025-12-07T20:18:32Z,P2_3r9q,r007,T2_edit,success,,8000,200,on
+2025-12-07T20:21:53Z,P2_3r9q,r008,T4_delete,success,,6000,200,on
+2025-12-07T21:24:33Z,P3_0k2m,r009,T3_add,fail,download_instead_of_add,90000,400,off
+2025-12-07T21:30:43Z,P3_0k2m,r010,T1_filter,fail,download_instead_of_filter,120000,400,off
+2025-12-07T21:34:19Z,P3_0k2m,r011,T2_edit,fail,download_instead_of_edit,120000,400,off
+2025-12-07T21:38:37Z,P3_0k2m,r012,T4_delete,fail,download_instead_of_delete,120000,400,off

@@ -71,8 +71,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 - [ ] Durations plausible (not negative, not absurdly high)
 
 **Anomalies**:
-- [To be completed: e.g., "Pilot 4, T2: Missing log entry—server crashed, used stopwatch: 17s"]
-
+- P3(Safari accessibility): All tasks led to an unexpected download resulting in no proper server-side logs for any task, all requests recorded as invalid 
 **Exclusions**:
 - [To be completed: e.g., "None (all data usable)" or list excluded data]
 
