@@ -15,7 +15,7 @@
 - [ ] I confirm all participants gave informed consent
 - [ ] I confirm this work is my own (AI tools used for code assistance are cited below)
 
-**AI tools used** (if any): [e.g., "Copilot for route handler boilerplate (lines 45-67 in diffs)"]
+**AI tools used** : [e.g., "Claude AI for delete button colour change (lines 291-298 )"]
 
 ---
 
@@ -260,7 +260,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 - **P2**: Standard mouse and track-pad with HTMX-on
 - **P3**: Standard mouse and track-pad with js-off
 
-**Total participants**: [n=3]
+**Total participants**: [n=4(3: 1st pilot, 1: repilot)]
 
 ---
 
@@ -396,7 +396,7 @@ Can use tab to navigate through
 - I used a very small sample of people for the first pilot(3) and an even smaller sample for the repilot(1), this negatively affects the measure of success/improvements and makes results less reliable.
 - Safari keyboard issue – Many keyboard failures were caused by Safari’s default setting that disables Tab navigation, not by the interface itself. This limits how accurately keyboard accessibility could be measured.
 - Confirmation messages are still easy to miss, even after fixes, the status message appears small at the top of the page, so usability around feedback remains partially unresolved.
-– Tasks were short and controlled; real usage may reveal different issues.
+– Tasks were short and controlled, real usage may reveal different issues.
 
 
 ---
@@ -489,6 +489,8 @@ Before submitting, verify:
 - [ ] Before/after shown (verification.csv Part B has data)
 
 ---
+
+
 
 **Ready to submit?** Upload this file + evidence folder to Gradescope by end of Week 10.
 
