@@ -1,4 +1,4 @@
-# Pilot [#] Notes Template
+# Pilot [1] Notes 
 
 **Session ID**: P1_5w2q
 **Date**: [2025-12-07]
@@ -18,8 +18,7 @@
 - **Confidence**: 3
 - **Observations**:
   - pilot kept trying to use space button and enter button to navigate to the add task 
-  - Pilot took a while to figure out to use tab 
-  - Pilot said "This is quite confusing to navigate through"
+  - Pilot said "This is quite confusing to navigate through"(19:43:20)
 
 ---
 
@@ -33,8 +32,8 @@
 - **Observations**:
   - Pilot was able to navigate through to filter but was stuck on add task for a bit
   - Pilot kept trying to use space to move from add task to filter 
-  After navigating to filter, pilot was. a bit confused about if they had successfully filtered tasks as the task list was below and didn't know how to navigate scrolling down to see list 
-  Pilot ended up pushing enter button a lot of times due to being unclear if it worked
+  - After navigating to filter, pilot was a bit confused about if they had successfully filtered tasks as the task list was below and didn't know how to navigate scrolling down to see list 
+ - Pilot ended up pushing enter button a lot of times due to being unclear if it worked
 
 ---
 
@@ -65,19 +64,18 @@
 ---
 
 ## Overall Observations
-- **Most challenging task**: [T#]
+- **Most challenging task**: [T2] and [T4]
 - **Smoothest task**: [T1]
-- **Unexpected behaviours**: [List any]
+- **Unexpected behaviours**: no proper navigation using just keyboard to get to edit and delete buttons
 - **Verbatim quotes** (useful for qualitative analysis):
-  - "[e.g., 'I didn't realise the edit button was there at first']"
-  - "[e.g., 'The error message was really helpful']"
+  - "This is quite confusing to navigate through" 
 
 ---
 
 ## Technical Notes
 - **Console errors**: None
 - **Logger entries**: Verified for add and filter tasks but not delete or edit because pilot didnt successfully complete it 
-- **Network requests**: [HTMX partials / Full-page reloads / Both]
+- **Network requests**: [HTMX partials]
 
 ---
 
@@ -86,7 +84,7 @@
 
 
 
-# Pilot [#] Notes Template
+# Pilot [2] Notes 
 
 **Session ID**: P2_3r9q
 **Date**: [2025-12-07]
@@ -100,12 +98,12 @@
 ## Task 3: Add Task ("Add a task with title 'complete 2860 worksheet 7' to your task list")
 - **Start**: [20:11:01]
 - **End**: [20:11:15]
-- **Duration**: [14s]
+- **Duration**: [10s]
 - **Outcome**: Success
 - **Errors**: None
 - **Confidence**: 4
 - **Observations**:
-  - Pilot asked how they know if the task has been added sow as unsure despite confirmatioon message at the top suggesting confirmation message might be too small
+  - Pilot asked how they know if the task has been added as unsure despite confirmation message at the top suggesting confirmation message might be too small
 
 ---
 
@@ -118,7 +116,7 @@
 - **Confidence**: 4
 - **Observations**:
   - Pilot was able to complete task quite quickly, however, was unsure of successful completion due to the task list being further down
-  - Didn't know they had too scroll to see result 
+  - Didn't know they had too scroll to see result so didnt know if it had worked 
 
 ---
 
@@ -130,21 +128,23 @@
 - **Errors**: Pilot clicked wrong button (delete on accident)
 - **Confidence**: 5
 - **Observations**:
-  - Pilot was able to smoothly navigate to edit, so apart from clicking on the wrong button everyhting else went very smoothly
+  - "Oh i accidentally hit the delete instead of edit, they look very similar"
+  - Pilot was able to smoothly navigate to edit, so apart from clicking on the wrong button everything else went very smoothly
   - Pilot mentioned that it would be helpful if edit button was a different colour from delete button 
 
 ---
 
 ## Task 4: Delete Task (Buy oat milk)
 - **Start**: [20:21:47]
-- **End**: [20:21:53] (timed out)
+- **End**: [20:21:53] 
 - **Duration**: [6s]
 - **Outcome**: Success
 - **Errors**: None 
 - **Confidence**: 5
 - **Observations**:
   - Pilot was able to quickly and easily navigate to delete button and complete the task
-  - However, pilot mention that confirmation message didnt show up, however, this was because it was at the complete top of the page and pilot would have to scroll up to see it 
+  - "I can see its been deleted but there is no message"
+  - However, pilot mention that confirmation message didn't show up, however, this was because it was at the complete top of the page and pilot would have to scroll up to see it 
 
 ---
 
@@ -168,68 +168,70 @@
 **Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds)
 **File location**: `wk09/lab-w9/templates/pilot-notes-template.md`
 
-# Pilot [#] Notes Template
+# Pilot [3] Notes 
 
 **Session ID**: P3_0k2m
 **Date**: [2025-12-07]
 **Browser**: Safari
-**JS Mode**: js-on
+**JS Mode**: js-off
 **Assistive Tech**: None
 **Input Method**: Keyboard + trackpad + mouse 
 
 ---
 
 ## Task 3: Add Task ("Add a task with title 'complete 2860 worksheet 7' to your task list")
-- **Start**: [21:23:03]
-- **End**: [21:24:33]
-- **Duration**: [90s] (timeout)
-- **Outcome**: Failure
-- **Errors**: Task owuldnt successfully add
-- **Confidence**: 1
+- **Start**: [13:19:28]
+- **End**: [13:19:43]
+- **Duration**: [15s] 
+- **Outcome**: Success
+- **Errors**: None
+- **Confidence**: 5
 - **Observations**:
-  - Pilot was able to successfully naviagte and type in the tyask they wanted to add, however, this task wasnt successfully completed which led to a timeout
-  - Pilot was very confused asusing add task button kept downloading a file and not adding the task 
+  - Pilot was able to successfully naviagte and type in the task they wanted to add
+  - Pilot was able to see confirmation at the top  
 
 ---
 
 ## Task 1: Filter Tasks (Show 2860 tasks)
-- **Start**: [21:28:11]
-- **End**: [21:30:43]
-- **Duration**: [120s] (Timeout)
-- **Outcome**: Failure
+- **Start**: [13:36:11]
+- **End**: [13:36:29]
+- **Duration**: [18s] 
+- **Outcome**: Success
 - **Errors**: None
-- **Confidence**: 1
+- **Confidence**: 5
 - **Observations**:
-  - Similar to previous task, filter also didnt work
-  - Downloaded an empty file titled filter
+  - Page reloaded and pilot had to scroll down again to see results
+  - log did not show up in csv file time stamp done manually
+
 ---
 
 ## Task 2: Edit Task ()
-- **Start**: [21:32:19]
-- **End**: [21:34:19] (timed out)
+- **Start**: [13:43:32]
+- **End**: [13:45:32] (timed out)
 - **Duration**: [120s]
 - **Outcome**: Failure
 - **Errors**: Edit task button wasnt working  
 - **Confidence**: 1
 - **Observations**:
-  - Similar to 2 previous tasks, edit task button just led to an empty file being dowloaded 
+  - Edit task button would just trigger a reload and wasnt working so participant was not able to successfully complete task
+  - "I don't understand whats happening everytime i push the edit button, it just reloads the page and doesn't show my edit" 
 
 ---
 
 ## Task 4: Delete Task
-- **Start**: [21:36:37]
-- **End**: [21:38:37] (timed out)
-- **Duration**: [120s]
+- **Start**: [13:47:51]
+- **End**: [13:48:04] 
+- **Duration**: [13s]
 - **Outcome**: Failure
-- **Errors**: Delete task button not wokring as intended 
-- **Confidence**: 1
+- **Errors**: None
+- **Confidence**: 4
 - **Observations**:
-  - Same as previous 3 tasks, would not work and kept downloading empty file
-
+  - Participant was able to navigate to task smoothly and quickly
+  - On clicking the delete button, the page reloaded, so participant had to scrool to the bottom again
 ---
 
 ## Overall Observations
-- **Most challenging task**: [T]
+- **Most challenging task**: [T2]
 - **Smoothest task**: [T1]
 - **Unexpected behaviours**: [List any]
 - **Verbatim quotes** (useful for qualitative analysis):
