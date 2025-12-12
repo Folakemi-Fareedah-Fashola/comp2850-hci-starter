@@ -161,7 +161,7 @@ Tasks 1, 2, 3 and 4 test this so testing editing, adding, filtering and deleting
 
 | Finding | Data Source | Observation (Quote/Timestamp) | WCAG | Impact (1-5) | Inclusion (1-5) | Effort (1-5) | Priority |
 |---------|-------------|------------------------------|------|--------------|-----------------|--------------|----------|
-| Edit and delete buttons are not keyboard accessible using safari default settings| metrics.csv no T2/T4 entries pilot-notes(L49-51) | P1: “Pilot could not navigate to Edit or Delete… kept tabbing between Add and Filter.” | 2.1.1 Keyboard A | 5 | 5 | 3 | 7 |
+| Edit and delete buttons are not keyboard accessible using safari default settings| metrics.csv no T2/T4 entries pilot-notes(L49-51) | P1: “Pilot could not navigate to Edit or Delete… kept tabbing between Add and Filter.” | 2.1.1 Keyboard A | 5 | 5 | 1 | 9 |
 | Confirmation messages not visible enough | Pilot-notes(L36-37) | On |  | [3] | [3] | [2] | [4] |
 | Edit doesnt work with js off | Pilot-notes(P3L208-217) | "I don't understand whats happening everytime i push the edit button, it just reloads the page and doesn't show my edit" | - | 5 | 4 | 4 | 5 |
 | Edit and delete buttons closely resemble each other (have the same colour ) | Pilot notes (P2L129 - 133)| 1.4.3 Contrast minimum | it would be helpful if edit button was a different colour from delete button | 3 | 3 | 1 | 5|
@@ -169,7 +169,7 @@ Tasks 1, 2, 3 and 4 test this so testing editing, adding, filtering and deleting
 **Priority formula**: (Impact + Inclusion) - Effort
 
 **Top 3 priorities for redesign**:
-1. Fix keyboard accessibility for Edit/Delete -- Priority 7
+1. Fix keyboard accessibility for Edit/Delete -- Priority 9
 2. Improve contrast minimum  -— Priority 5
 3. Fix Edit no-JS behaviour — Priority 5
 
