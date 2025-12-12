@@ -149,12 +149,11 @@
 ---
 
 ## Overall Observations
-- **Most challenging task**: [T#]
+- **Most challenging task**: [T2]
 - **Smoothest task**: [T1]
-- **Unexpected behaviours**: [List any]
+- **Unexpected behaviours**: None
 - **Verbatim quotes** (useful for qualitative analysis):
-  - "[e.g., 'I didn't realise the edit button was there at first']"
-  - "[e.g., 'The error message was really helpful']"
+  - "Oh i accidentally hit the delete instead of edit, they look very similar"
 
 ---
 
@@ -219,31 +218,30 @@
 ---
 
 ## Task 4: Delete Task
-- **Start**: [13:47:51]
-- **End**: [13:48:04] 
+- **Start**: [13:44:35]
+- **End**: [13:44:48] 
 - **Duration**: [13s]
-- **Outcome**: Failure
+- **Outcome**: Success
 - **Errors**: None
 - **Confidence**: 4
 - **Observations**:
   - Participant was able to navigate to task smoothly and quickly
-  - On clicking the delete button, the page reloaded, so participant had to scrool to the bottom again
+  - On clicking the delete button, the page reloaded, so participant had to scroll to the bottom again
 ---
 
 ## Overall Observations
 - **Most challenging task**: [T2]
 - **Smoothest task**: [T1]
-- **Unexpected behaviours**: [List any]
+- **Unexpected behaviours**: Edit button not working 
 - **Verbatim quotes** (useful for qualitative analysis):
-  - "[e.g., 'I didn't realise the edit button was there at first']"
-  - "[e.g., 'The error message was really helpful']"
+  - "I don't understand whats happening everytime i push the edit button, it just reloads the page and doesn't show my edit"
 
 ---
 
 ## Technical Notes
 - **Console errors**: None
 - **Logger entries**: Verified for add and filter tasks but not delete or edit because pilot didnt successfully complete it 
-- **Network requests**: [HTMX partials / Full-page reloads / Both]
+- **Network requests**: [Full-page reloads]
 
 ---
 

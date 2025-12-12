@@ -37,7 +37,7 @@ Tasks 1, 2, 3 and 4 test this so testing editing, adding, filtering and deleting
 
 ---
 
-### Evaluation Tasks (4-5 tasks)
+### Evaluation Tasks (4 tasks)
 ## Task 3 (T3): Add task
 
 ### Scenario
@@ -162,15 +162,15 @@ Tasks 1, 2, 3 and 4 test this so testing editing, adding, filtering and deleting
 | Finding | Data Source | Observation (Quote/Timestamp) | WCAG | Impact (1-5) | Inclusion (1-5) | Effort (1-5) | Priority |
 |---------|-------------|------------------------------|------|--------------|-----------------|--------------|----------|
 | Edit and delete buttons are not keyboard accessible using safari default settings| metrics.csv no T2/T4 entries pilot-notes(L49-51) | P1: “Pilot could not navigate to Edit or Delete… kept tabbing between Add and Filter.” | 2.1.1 Keyboard A | 5 | 5 | 3 | 7 |
-| Confirmation messages not visible enough | Pilot-notes(L36-37) | On |  | [1-5] | [1-5] | [1-5] | [Score] |
+| Confirmation messages not visible enough | Pilot-notes(L36-37) | On |  | [3] | [3] | [2] | [4] |
 | Edit doesnt work with js off | Pilot-notes(P3L208-217) | "I don't understand whats happening everytime i push the edit button, it just reloads the page and doesn't show my edit" | - | 5 | 4 | 4 | 5 |
-| Edit and delete buttons closely resemble each other (have the same colour ) | Pilot notes (P2L129 - 133)| 1.4.3 Contrast minimum | it would be helpful if edit button was a different colour from delete button | 3 | 3 | 2 | 4|
+| Edit and delete buttons closely resemble each other (have the same colour ) | Pilot notes (P2L129 - 133)| 1.4.3 Contrast minimum | it would be helpful if edit button was a different colour from delete button | 3 | 3 | 1 | 5|
 
 **Priority formula**: (Impact + Inclusion) - Effort
 
 **Top 3 priorities for redesign**:
 1. Fix keyboard accessibility for Edit/Delete -- Priority 7
-2. Improve confirmation visibility  -— Priority 6
+2. Improve contrast minimum  -— Priority 5
 3. Fix Edit no-JS behaviour — Priority 5
 
 ---
@@ -189,7 +189,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-07T19:29:48.316560705Z,94ba96,r_f91d32a1,T3_add,success,,38,200,on
 2025-12-07T19:29:54.554522613Z,94ba96,r_b86a9229,T2_edit,success,,4,200,on
 2025-12-07T19:30:39.354390052Z,94ba96,r_dc729ef6,T3_add,success,,7,200,on
-2025-12-07T19:30:57.306419452Z,94ba96,r_c49515af,T3_add,success,,11,200,on
+2025-12-07T19:30:57.306419452Z,P1_5w2q,r_c49515af,T3_add,success,,11,200,on
 2025-12-07T19:31:07.254263828Z,94ba96,r_5f57b649,T1_filter,success,,18,200,on
 2025-12-07T19:31:09.673696580Z,94ba96,r_4228b2e0,T1_filter,success,,8,200,on
 2025-12-07T19:31:35.524489732Z,94ba96,r_1a98f746,T3_add,success,,34,200,on
@@ -198,7 +198,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-07T19:41:23.424920793Z,94ba96,r_612ebfa2,T4_delete,success,,5,200,on
 2025-12-07T19:43:42.415498554Z,94ba96,r_ca3bb52d,T3_add,success,,9,200,on
 2025-12-07T19:50:10.531645085Z,94ba96,r_ded49340,T0_list,success,,11,200,off
-2025-12-07T19:50:43.995278304Z,94ba96,r_3e5bd098,T1_filter,success,,10,200,on
+2025-12-07T19:50:43.995278304Z,P1_5w2q,r_3e5bd098,T1_filter,success,,10,200,on
 2025-12-07T19:50:44.455074926Z,94ba96,r_706912cb,T1_filter,success,,7,200,on
 2025-12-07T19:50:45.419657514Z,94ba96,r_c5ce8969,T1_filter,success,,4,200,on
 2025-12-07T19:50:46.018950996Z,94ba96,r_95458f12,T1_filter,success,,3,200,on
@@ -211,18 +211,18 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-07T19:50:59.238211976Z,94ba96,r_77a981a3,T1_filter,success,,3,200,on
 2025-12-07T20:10:25.808428382Z,94ba96,r_f0cc01e4,T1_filter,success,,5,200,on
 2025-12-07T20:10:46.362287609Z,94ba96,r_3a001bc7,T4_delete,success,,2,200,on
-2025-12-07T20:11:15.764895348Z,94ba96,r_ca084c85,T3_add,success,,11,200,on
+2025-12-07T20:11:15.764895348Z,P2_3r9q,r_ca084c85,T3_add,success,,11,200,on
 2025-12-07T20:14:09.540273145Z,94ba96,r_3d44e961,T1_filter,success,,3,200,on
 2025-12-07T20:14:10.068258207Z,94ba96,r_befecbca,T1_filter,success,,3,200,on
 2025-12-07T20:14:10.487163842Z,94ba96,r_78d581cd,T1_filter,success,,4,200,on
 2025-12-07T20:14:10.796673944Z,94ba96,r_fa9cb274,T1_filter,success,,3,200,on
 2025-12-07T20:14:11.378459604Z,94ba96,r_1a51d516,T1_filter,success,,9,200,on
 2025-12-07T20:14:14.570796174Z,94ba96,r_8e3808ba,T1_filter,success,,3,200,on
-2025-12-07T20:14:23.867531517Z,94ba96,r_517b8c92,T1_filter,success,,7,200,on
+2025-12-07T20:14:23.867531517Z,P2_3r2q,r_517b8c92,T1_filter,success,,7,200,on
 2025-12-07T20:16:40.340175318Z,94ba96,r_3f446fc7,T1_filter,success,,6,200,on
 2025-12-07T20:16:40.604803730Z,94ba96,r_757f3f48,T1_filter,success,,4,200,on
-2025-12-07T20:18:32.203274715Z,94ba96,r_ad323508,T2_edit,success,,3,200,on
-2025-12-07T20:21:53.407436823Z,94ba96,r_f93f60c4,T4_delete,success,,2,200,on
+2025-12-07T20:18:32.203274715Z,P2_3r2q,r_ad323508,T2_edit,success,,3,200,on
+2025-12-07T20:21:53.407436823Z,P2_3r2q,r_f93f60c4,T4_delete,success,,2,200,on
 2025-12-08T13:10:14.626798788Z,94ba96,r_c57a5f89,T0_list,success,,178,200,off
 2025-12-08T13:10:30.621243602Z,94ba96,r_98bcb615,T3_add,success,,16,200,off
 2025-12-08T13:10:30.860561268Z,94ba96,r_edeed653,T0_list,success,,44,200,off
@@ -235,7 +235,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-08T13:11:25.616361161Z,94ba96,r_748eb975,T0_list,success,,20,200,off
 2025-12-08T13:16:27.436509642Z,94ba96,r_d10d2527,T0_list,success,,12,200,off
 2025-12-08T13:18:28.514480532Z,94ba96,r_bae0bb3e,T3_add,success,,11,200,on
-2025-12-08T13:19:43.979750587Z,94ba96,r_1616a2ab,T3_add,success,,3,200,off
+2025-12-08T13:19:43.979750587Z,P3_0k2m,r_1616a2ab,T3_add,success,,3,200,off
 2025-12-08T13:19:44.108342989Z,94ba96,r_0bc982be,T0_list,success,,9,200,off
 2025-12-08T13:27:59.718610917Z,94ba96,r_b54b5448,T0_list,success,,10,200,off
 2025-12-08T13:28:51.091878911Z,94ba96,r_40109338,T0_list,success,,6,200,off
@@ -249,8 +249,9 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-08T13:44:27.784536050Z,94ba96,r_52bf35c8,T0_list,success,,7,200,off
 2025-12-08T13:44:43.946919736Z,94ba96,r_eae5aa2b,T4_delete,success,,2,200,off
 2025-12-08T13:44:43.993015467Z,94ba96,r_acfd33ec,T0_list,success,,6,200,off
-2025-12-08T13:44:48.879878395Z,94ba96,r_041f7c7a,T4_delete,success,,3,200,off
+2025-12-08T13:44:48.879878395Z,P3_0k2m,r_041f7c7a,T4_delete,success,,3,200,off
 2025-12-08T13:44:49.338833577Z,94ba96,r_6a7f130b,T0_list,success,,5,200,off
+
 
 ```
 
@@ -328,7 +329,6 @@ Can use tab to navigate through
 **Impact**: WCAG 2.1.1 keyboard accesibility, means all actions are now accessible through the keyboard 
 
 ---
----
 
 ## 5. Verification Results
 
@@ -368,6 +368,7 @@ Can use tab to navigate through
 **Summary**: [16/20 pass], 4/20 fail]
 **Critical failures** (if any): [List any Level A fails]
 - Errors not visible in no-JS mode
+
 ---
 
 ### Part B: Before/After Comparison
@@ -379,11 +380,11 @@ Can use tab to navigate through
 | SR / status visibility | [1/3 (33%)] | [e.g., 1/1 (100%)] |  +17% | [X] |
 | Accidental edit/delete clicks | [1/3 (33%)] | [0/1 0%] | [-33%] | [✅] |
 | Median time -- Delete task | [6000ms] | [4500ms] | [-15000ms] | [✅] |
-| Keyboard navigation | 2/4 tasks 0%| 4/4 tasks 100% | [+75%] | [X] |
+| Keyboard navigation | 2/4 tasks 50%| 4/4 tasks 100% | [+75%] | [X] |
 | WCAG 1.4.3 (contrast minimum) pass | [fail] | [pass] | 100% | [✅] |
 
 **Re-pilot details**:
-- **P4* (post-fix): [Variant -  mouse + keyboard (standard HTMX)"] - [11/12/2025]
+- **P4* (post-fix): [Variant -  mouse + keyboard (standard HTMX)"] - [11/12/2025] (Targeted task to delete)
 - Participant correctly identified Delete button immediately
 - No accidental clicks on Edit
 - Task completed faster with less hesitation
@@ -425,16 +426,16 @@ Can use tab to navigate through
 **Instructions**: Attach pilot notes as separate files (P1-notes.md, P2-notes.md, etc.). Summarize key observations here.
 
 **P1** ([ Variant - "keyboard only - standard HTMX"]):
-- **Key observation 1**: Could not navigate to edit/delete buttons (19::)
+- **Key observation 1**: Could not navigate to edit/delete buttons (P1-notes (L40-62))
 - **Key observation 2**: "This is quite confusing to navigate through" (19:43:20)
 
 **P2** ([Variant - trackpad + mouse - standard HTMX]):
-- **Key observation 1**: [Quote + timestamp]
-- **Key observation 2**: [Quote + timestamp]
+- **Key observation 1**: "Oh i accidentally hit the delete instead of edit, they look very similar" (20:18:28)
+- **Key observation 2**: "It would be helpful if edit button was a different colour" (P2-notes(L133))
 
 **P3* ([ Variant - "Standard mouse + no-js"]):
-- **Key observation 1**: [Quote + timestamp - e.g., "Struggled with filter button (09:47)"]
-- **Key observation 2**: [Quote + timestamp]
+- **Key observation 1**: Struggled with edit button (13:44:51)
+- **Key observation 2**: "I don't understand whats happening everytime i push the edit button, it just reloads the page and doesn't show my edit" (P3-notes (L216))
 ---
 
 ## Evidence Chain Example (Full Trace)
